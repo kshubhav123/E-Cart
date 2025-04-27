@@ -27,7 +27,7 @@ export const getCartData = (data = initialState, action) => {
             return {
                 cart: updatedCart
             }
-            default:
+        default:
             return data;
     }
 }

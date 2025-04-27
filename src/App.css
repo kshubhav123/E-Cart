@@ -1,0 +1,86 @@
+:root {
+    --primary-color: #d22519;
+    --secondary-color: #ff4081;
+    --border-color: #333;
+}
+
+* {
+    font-family: "Winky Rough", sans-serif;
+}
+
+.bg-backgrgound {
+    background-color: var(--primary-color);
+}
+
+.text-color {
+    color: var(--primary-color);
+}
+
+.borderColor {
+    border-color: var(--primary-color) !important;
+}
+
+
+.navbar-toggler:focus {
+    border: hidden;
+    outline: 0;
+    box-shadow: none !important;
+    font-weight: bold;
+}
+
+
+
+.input-searc-field {
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.input-searc-field:focus {
+    outline: none;
+}
+
+
+
+.input-searc-button:active {
+    outline: none;
+    border: 0
+}
+
+
+
+
+.error-message {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 2rem auto;
+    width: 500px;
+    background-color: #f8f8f8;
+}
+
+.error-message h1 {
+    color: var(--primary-color);
+    opacity: 65%;
+}
+
+.error-message p {
+    color: #555;
+}
+
+
+.addtocart:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    transition: 1s;
+    font-weight: bold;
+}
+
+
+.wishlist:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    transition: 1s;
+}
